@@ -20,7 +20,7 @@ $config['modules_locations'] = array(
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= 'http://localhost/bonfire_dev/';
 
 /*
 |--------------------------------------------------------------------------
@@ -32,7 +32,7 @@ $config['base_url']	= '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = "index.php";
+$config['index_page'] = "";
 
 /*
 |--------------------------------------------------------------------------
@@ -230,7 +230,7 @@ $config['cache_path'] = APPPATH .'cache/';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = "2d4ad585d40974d18631e8c3b78a9f96";
+$config['encryption_key'] = "96405dc96bbf046658b8dc26ad338ca6";
 
 /*
 |--------------------------------------------------------------------------
@@ -360,6 +360,19 @@ $config['rewrite_short_tags'] = FALSE;
 |
 */
 $config['proxy_ips'] = '';
+
+/*
+ |--------------------------------------------------------------------------
+ | Application installation folder
+ |--------------------------------------------------------------------------
+ |
+ | If the application is installed in a sub directory other than the root
+ | folder, then this options should contain the name of the the folder 
+ | in which bonfire is installed. DO NOT include the forwad slash /
+ | Leave it blank if bonfire is installed in the root of your web server
+ |
+ */
+$config['my_install_folder']='/bonfire_dev';
 
 
 /* End of file config.php */
